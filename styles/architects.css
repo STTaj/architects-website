@@ -1,3 +1,74 @@
-*{
-    font-family: Work Sans;
+* {
+    font-family: Work Sans, sans-serif;
+}
+
+/* Header Section */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--Dark-01, #131313);
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-family: 500;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--Dark-02, #424242);
+}
+
+/* banner Section */
+
+.banner-contant {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.banner-dec {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.primary-btn {
+    border-radius: 8px;
+    background: #FF900E;
+    width: 180px;
+    height: 64px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.banner-img {
+    width: 1440px;
+    height: 700px;
+    flex-shrink: 0;
 }
